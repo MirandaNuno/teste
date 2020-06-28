@@ -1,0 +1,74 @@
+########################## Message Settings ##########################
+# login-message : Player join message.
+# logout-message : Player leave message.
+# msgtips : This is simply tips message when joined your server.
+# msgtipsdetail_<num> :
+#	- This is detail tips message when player on /srvmsg command.
+#	- For Example:
+#		- "/srvmsg 0" is simply tips message. (equal for msgtips)
+#		- "/srvmsg 1" is first page message for detail tips.
+# Tips:
+#	Formatting codes is "&" (ex. "&c" is RED.)
+#	Extra line is "%n%" (But, can be implemented without using this "%n%".)
+#	Supported language : en-EN , ja-JP
+#	 - Choose one language at your environments.
+#	 - Please, uncomment the line under than en-EN or ja-JP. 
+######################################################################
+
+# en-EN
+login-message: '&8[&9%player%&8] &9joined&8 the game!!'
+logout-message: '&8[&9%player%&8] &cleft&8 the game!!'
+msgtips: |-
+ &eHello!! Welcome to MyScape server!!!
+ &eSimple Rules: Do not destroy what is not yours. || Respect.
+ &------------------------------------------------------------
+ &eOlá!! Bem Vindo ao Servidor MyScape!!!
+ &eRegras Simples: Não Destruas o que nao é teu. || Respeito.
+msgtipsdetail_1: |-
+ 
+msgtipsdetail_2: |-
+
+msgtipsdetail_3: |-
+
+msgtipsdetail_4: |-
+
+msgtipsdetail_5: |-
+
+msgtipsdetail_6: |-
+
+msgtipsdetail_7: |-
+
+msgtipsdetail_8: |-
+
+msgtipsdetail_9: |-
+
+msgtipsdetail_10: |-
+
+
+# ja-JP
+#login-message: '&8[&9%player%&8] &8が&9ログイン&8しました!'
+#logout-message: '&8[&9%player%&8] &8が&cログアウト&8しました!'
+#msgtips: |-
+# &eようこそ!!このサーバへ!!
+# &fこの文章はテストメッセージです。
+# 正しく表示されているかの確認です。
+
+#msgtipsdetail_1: |-
+
+#msgtipsdetail_2: |-
+
+#msgtipsdetail_3: |-
+
+#msgtipsdetail_4: |-
+
+#msgtipsdetail_5: |-
+
+#msgtipsdetail_6: |-
+
+#msgtipsdetail_7: |-
+
+#msgtipsdetail_8: |-
+
+#msgtipsdetail_9: |-
+
+#msgtipsdetail_10: |-
